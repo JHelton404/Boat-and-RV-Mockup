@@ -3,12 +3,55 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>London Dry Dock</title>
+  <title>The Dry Dock</title>
+  <link rel="stylesheet" href="./assets/style/style.css" />
 </head>
 <body>
   <header>
-    
+    <h1 class="header-title">
+      Helton Family Boats and RV
+    </h1>
+    <nav class="text-right">
+      <ul>
+        <li class="display-inline"> <a>Boat Storages</a> </li>
+        <li class="display-inline"> <a>Campground Rentals</a> </li>
+        <li class="display-inline"> <a>Contact Us</a> </li>
+      </ul>
+    </nav>
   </header>
+
+  <main>
+    <img src="./assets/images/boat-storage.jpg" alt="Stock Photo of Storage Company" />
+
+    <form>
+      <h2 class="contact-title">
+        Contact Us
+      </h2>
+      <ul>
+        <li class="form-list">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="user-name">
+        </li>
+        <li class="form-list">
+          <label for="phone">Phone:</label>
+          <input type="text" id="phone" name="user-phone">
+        </li>
+        <li class="form-list">
+          <label for="email">Email:</label>
+          <input type="text" id="email" name="user-email">
+        </li>
+      </ul>
+      <div class="submit-button">
+        <button type="submit">SEND</button>
+      </div>
+    </form>
+
+
+  </main>
+
+  <footer>
+    <h3>© Helton Family Business 2023<h3>
+  </footer>
   
 </body>
 </html>
